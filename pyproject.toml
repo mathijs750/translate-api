@@ -5,10 +5,13 @@ description = "Airgaped translations"
 readme = "README.md"
 requires-python = "==3.13.*"
 dependencies = [
-    "fastapi[standard]==0.128.2",
+    "ctranslate2>=4.7.1",
+    "fastapi[standard]>=0.128.2",
+    "transformers>=5.1.0",
 ]
 
 [dependency-groups]
 dev = [
-    "ruff==0.15.0",
+    "ruff>=0.15.0",
+    "torch>=2.10.0",
 ]
