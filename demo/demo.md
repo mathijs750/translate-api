@@ -1,5 +1,11 @@
 # Docker Image Transfer Demo
 
+### Install git-lfs
+
+First, ensure you have `git-lfs` installed on your machine. You can follow the
+installation instructions from the
+[Git LFS website](https://git-lfs.github.com/).
+
 ### Load the Image on the Other Machine
 
 On the target machine, navigate to the folder where you copied the file and run:
